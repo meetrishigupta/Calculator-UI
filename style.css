@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Roboto+Slab:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Prata&display=swap");
+body {
+  background-color: #bbbbbb;
+}
+
+h1 {
+  width: 100%;
+  line-height: 1.5rem;
+  color: rgba(255, 255, 255, 0.763);
+  font-weight: 700;
+  position: relative;
+  z-index: -1;
+  text-shadow: 10px 8px 10px rgba(71, 71, 71, 0.713);
+  font-size: 120px;
+  text-align: CENTER;
+  font-family: "Bungee Spice", cursive;
+}
+.calculator {
+  background-color: #18202a;
+  border-radius: 5%;
+  box-shadow: 15px 25px 30px rgb(71, 71, 71);
+  width: 380px;
+  margin: -65px auto;
+  height: 70%;
+  min-width: 300px;
+  min-height: 400px;
+}
+
+.calc-display {
+  font-size: 16px;
+  width: 100%;
+  color: white;
+  font-family: "Lato", sans-serif;
+  height: 100px;
+  border-radius: 20px 20px 0 0;
+  background-color: #36474f;
+}
+.keypart {
+  padding-bottom: 5px;
+  margin-left: 4px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  vertical-align: middle;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  display: inline-block;
+  width: 70px;
+  font-size: 1.5rem;
+  border-radius: 40px;
+  height: 75px;
+  height: 70px;
+  color: white;
+}
+#right {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  color: #18202a;
+}
+#right:hover {
+  opacity: 0.85;
+}
+#equals:hover {
+  opacity: 0.85;
+}
+#equals {
+  width: 165px;
+  font-size: 50px;
+  background-color: rgba(255, 166, 0, 0.79);
+}
+#equals span {
+  position: relative;
+  top: 5px;
+}
+.button span {
+  position: relative;
+  top: 20px;
+}
+.button:hover {
+  box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.356);
+  background-color: white;
+  color: #18202a;
+  cursor: pointer;
+}
+@media only screen and (max-width: 500px) {
+  h1 {
+    line-height: 1.5rem;
+    color: rgba(255, 255, 255, 0.763);
+    font-weight: 700;
+    position: relative;
+    z-index: -1;
+    margin-bottom: 72px;
+    text-shadow: 10px 8px 10px rgba(71, 71, 71, 0.713);
+    font-size: 68px;
+    text-align: CENTER;
+    font-family: "Bungee Spice", cursive;
+  }
+}
